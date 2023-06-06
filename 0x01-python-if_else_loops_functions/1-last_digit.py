@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-lastD1 = str(number)[-1]
-last = int(lastD1)
+
+last = abs(number) % 10
 
 if number < 0:
     last = -last
