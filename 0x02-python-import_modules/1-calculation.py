@@ -4,19 +4,19 @@ from calculator_1 import add, sub, mul, div
 
 a = 10
 b = 5
-s1 = add(a, b)
-s2 = sub(a, b)
-s3 = mul(a, b)
-s4 = div(a, b)
+add(a, b)
+sub(a, b)
+mul(a, b)
+div(a, b)
 
 def calc():
     """
         function to print the return values
     """
-    print("{} + {} = {}".format(a, b, s1))
-    print("{} + {} = {}".format(a, b, s2))
-    print("{} + {} = {}".format(a, b, s3))
-    print("{} + {} = {}".format(a, b, s4))
+    print("{} + {} = {}".format(a, b, add(a, b)))
+    print("{} + {} = {}".format(a, b, sub(a, b)))
+    print("{} + {} = {}".format(a, b, mul(a, b)))
+    print("{} + {} = {}".format(a, b, div(a, b)))
 
 
 if __name__ == "__main__":
