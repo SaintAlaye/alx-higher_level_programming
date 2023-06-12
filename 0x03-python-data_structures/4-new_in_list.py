@@ -8,5 +8,5 @@ def new_in_list(my_list, idx, element):
         return my_list.copy()
     else:
         copy = my_list.copy()
-        copy [idx] = element
+        copy[idx] = element
         return copy
