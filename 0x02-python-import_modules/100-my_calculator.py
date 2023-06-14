@@ -24,5 +24,5 @@ if __name__ == "__main__":
         value = mul(a, b)
     elif "/" in sys.argv[2]:
         value = div(a, b)
-    
+
     print("{} {} {} = {}".format(a, sys.argv[2], b, value))
